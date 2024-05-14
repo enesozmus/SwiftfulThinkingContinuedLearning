@@ -1,5 +1,5 @@
 # 🚧 SwiftUI
 Kaynak/Reference: [Swiftful Thinking](https://www.youtube.com/@SwiftfulThinking/videos)
 
-> - ⚙️ [...](./SwiftfulThinkingBootcamp/Aaaa.swift)
->  >
+> - ⚙️ [Custom Models](./SwiftfulThinkingBootcamp/ModelBootcamp.swift)
+>  > Building a custom data type

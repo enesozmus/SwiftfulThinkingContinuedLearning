@@ -11,6 +11,7 @@
 		DFBF9A482BF3E7E6001C337D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBF9A472BF3E7E6001C337D /* ContentView.swift */; };
 		DFBF9A4A2BF3E7E7001C337D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBF9A492BF3E7E7001C337D /* Assets.xcassets */; };
 		DFBF9A4D2BF3E7E7001C337D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBF9A4C2BF3E7E7001C337D /* Preview Assets.xcassets */; };
+		DFCE753E2BF3EA0E00B39B29 /* ModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCE753D2BF3EA0E00B39B29 /* ModelBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		DFBF9A472BF3E7E6001C337D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DFBF9A492BF3E7E7001C337D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFBF9A4C2BF3E7E7001C337D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFCE753D2BF3EA0E00B39B29 /* ModelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				DFBF9A492BF3E7E7001C337D /* Assets.xcassets */,
 				DFBF9A472BF3E7E6001C337D /* ContentView.swift */,
+				DFCE753D2BF3EA0E00B39B29 /* ModelBootcamp.swift */,
 				DFBF9A4B2BF3E7E7001C337D /* Preview Content */,
 				DFBF9A532BF3E811001C337D /* Root */,
 			);
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFBF9A482BF3E7E6001C337D /* ContentView.swift in Sources */,
+				DFCE753E2BF3EA0E00B39B29 /* ModelBootcamp.swift in Sources */,
 				DFBF9A462BF3E7E6001C337D /* SwiftfulThinkingContinuedLearningApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
