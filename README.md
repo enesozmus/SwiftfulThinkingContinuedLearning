@@ -7,3 +7,5 @@ Kaynak/Reference: [Swiftful Thinking](https://www.youtube.com/@SwiftfulThinking/
 >  > State management 1
 > - ⚙️ [StateObject and ObservedObject](./SwiftfulThinkingContinuedLearning/StateObjectAndObservedObjectBootcamp.swift)
 >  > State management 2
+> - ⚙️ [ViewModel](./SwiftfulThinkingContinuedLearning/ViewModelBootcamp.swift)
+>  > State management 3, Custom model, Identifiable Protocol, ViewModel, ObservableObject Protocol, @Published, init(){}, @StateObject, @ObservedObject

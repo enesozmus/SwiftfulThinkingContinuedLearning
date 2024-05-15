@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DF65D6F52BF4E530004A3D79 /* ObservableObjectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65D6F42BF4E530004A3D79 /* ObservableObjectBootcamp.swift */; };
 		DF65D6F92BF50457004A3D79 /* StateObjectAndObservedObjectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65D6F82BF50457004A3D79 /* StateObjectAndObservedObjectBootcamp.swift */; };
+		DF65D6FD2BF50885004A3D79 /* ViewModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65D6FC2BF50885004A3D79 /* ViewModelBootcamp.swift */; };
 		DFBF9A462BF3E7E6001C337D /* SwiftfulThinkingContinuedLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBF9A452BF3E7E6001C337D /* SwiftfulThinkingContinuedLearningApp.swift */; };
 		DFBF9A482BF3E7E6001C337D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBF9A472BF3E7E6001C337D /* ContentView.swift */; };
 		DFBF9A4A2BF3E7E7001C337D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBF9A492BF3E7E7001C337D /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		DF65D6F42BF4E530004A3D79 /* ObservableObjectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjectBootcamp.swift; sourceTree = "<group>"; };
 		DF65D6F82BF50457004A3D79 /* StateObjectAndObservedObjectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectAndObservedObjectBootcamp.swift; sourceTree = "<group>"; };
+		DF65D6FC2BF50885004A3D79 /* ViewModelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBootcamp.swift; sourceTree = "<group>"; };
 		DF820FBD2BF3E88A00110D1A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DFBF9A422BF3E7E6001C337D /* SwiftfulThinkingContinuedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulThinkingContinuedLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFBF9A452BF3E7E6001C337D /* SwiftfulThinkingContinuedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingContinuedLearningApp.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				DFBF9A4B2BF3E7E7001C337D /* Preview Content */,
 				DFBF9A532BF3E811001C337D /* Root */,
 				DF65D6F82BF50457004A3D79 /* StateObjectAndObservedObjectBootcamp.swift */,
+				DF65D6FC2BF50885004A3D79 /* ViewModelBootcamp.swift */,
 			);
 			path = SwiftfulThinkingContinuedLearning;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFBF9A482BF3E7E6001C337D /* ContentView.swift in Sources */,
+				DF65D6FD2BF50885004A3D79 /* ViewModelBootcamp.swift in Sources */,
 				DFCE753E2BF3EA0E00B39B29 /* ModelBootcamp.swift in Sources */,
 				DF65D6F52BF4E530004A3D79 /* ObservableObjectBootcamp.swift in Sources */,
 				DFBF9A462BF3E7E6001C337D /* SwiftfulThinkingContinuedLearningApp.swift in Sources */,
