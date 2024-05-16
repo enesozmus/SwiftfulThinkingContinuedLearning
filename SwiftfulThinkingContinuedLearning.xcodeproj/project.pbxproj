@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DF1A50962BF643DB00922648 /* AppStorageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1A50952BF643DB00922648 /* AppStorageBootcamp.swift */; };
+		DF1A50992BF6490000922648 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1A50982BF6490000922648 /* IntroView.swift */; };
+		DF1A509B2BF64A6F00922648 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1A509A2BF64A6F00922648 /* OnboardingView.swift */; };
+		DF1A509D2BF64A8000922648 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1A509C2BF64A8000922648 /* ProfileView.swift */; };
 		DF65D6F52BF4E530004A3D79 /* ObservableObjectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65D6F42BF4E530004A3D79 /* ObservableObjectBootcamp.swift */; };
 		DF65D6F92BF50457004A3D79 /* StateObjectAndObservedObjectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65D6F82BF50457004A3D79 /* StateObjectAndObservedObjectBootcamp.swift */; };
 		DF65D6FD2BF50885004A3D79 /* ViewModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65D6FC2BF50885004A3D79 /* ViewModelBootcamp.swift */; };
@@ -21,6 +24,9 @@
 
 /* Begin PBXFileReference section */
 		DF1A50952BF643DB00922648 /* AppStorageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageBootcamp.swift; sourceTree = "<group>"; };
+		DF1A50982BF6490000922648 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		DF1A509A2BF64A6F00922648 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		DF1A509C2BF64A8000922648 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		DF65D6F42BF4E530004A3D79 /* ObservableObjectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjectBootcamp.swift; sourceTree = "<group>"; };
 		DF65D6F82BF50457004A3D79 /* StateObjectAndObservedObjectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectAndObservedObjectBootcamp.swift; sourceTree = "<group>"; };
 		DF65D6FC2BF50885004A3D79 /* ViewModelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBootcamp.swift; sourceTree = "<group>"; };
@@ -45,6 +51,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF1A50972BF648DB00922648 /* OnboardingViews */ = {
+			isa = PBXGroup;
+			children = (
+				DF1A50982BF6490000922648 /* IntroView.swift */,
+				DF1A509C2BF64A8000922648 /* ProfileView.swift */,
+				DF1A509A2BF64A6F00922648 /* OnboardingView.swift */,
+			);
+			path = OnboardingViews;
+			sourceTree = "<group>";
+		};
 		DFBF9A392BF3E7E6001C337D = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +78,7 @@
 				DFB2920D2BF5120100F2C3F3 /* EnvironmentObjectBootcamp.swift */,
 				DFCE753D2BF3EA0E00B39B29 /* ModelBootcamp.swift */,
 				DF65D6F42BF4E530004A3D79 /* ObservableObjectBootcamp.swift */,
+				DF1A50972BF648DB00922648 /* OnboardingViews */,
 				DFBF9A4B2BF3E7E7001C337D /* Preview Content */,
 				DFBF9A532BF3E811001C337D /* Root */,
 				DF65D6F82BF50457004A3D79 /* StateObjectAndObservedObjectBootcamp.swift */,
@@ -159,10 +176,13 @@
 				DFB2920E2BF5120100F2C3F3 /* EnvironmentObjectBootcamp.swift in Sources */,
 				DFBF9A482BF3E7E6001C337D /* ContentView.swift in Sources */,
 				DF65D6FD2BF50885004A3D79 /* ViewModelBootcamp.swift in Sources */,
+				DF1A509B2BF64A6F00922648 /* OnboardingView.swift in Sources */,
 				DFCE753E2BF3EA0E00B39B29 /* ModelBootcamp.swift in Sources */,
 				DF65D6F52BF4E530004A3D79 /* ObservableObjectBootcamp.swift in Sources */,
+				DF1A50992BF6490000922648 /* IntroView.swift in Sources */,
 				DFBF9A462BF3E7E6001C337D /* SwiftfulThinkingContinuedLearningApp.swift in Sources */,
 				DF1A50962BF643DB00922648 /* AppStorageBootcamp.swift in Sources */,
+				DF1A509D2BF64A8000922648 /* ProfileView.swift in Sources */,
 				DF65D6F92BF50457004A3D79 /* StateObjectAndObservedObjectBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
