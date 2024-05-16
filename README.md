@@ -11,3 +11,5 @@ Kaynak/Reference: [Swiftful Thinking](https://www.youtube.com/@SwiftfulThinking/
 >  > State management 3, Custom model, Identifiable Protocol, ViewModel, ObservableObject Protocol, @Published, init(){}, @StateObject, @ObservedObject
 > - ⚙️ [EnvironmentObject](./SwiftfulThinkingContinuedLearning/EnvironmentObjectBootcamp.swift)
 >  > State management 4, @EnvironmentObject, .environmentObject()
+> - ⚙️ [AppStorage](./SwiftfulThinkingContinuedLearning/AppStorageBootcamp.swift)
+>  > @AppStorage()
