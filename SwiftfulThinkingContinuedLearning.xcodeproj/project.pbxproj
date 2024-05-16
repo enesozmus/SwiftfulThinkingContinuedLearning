@@ -10,6 +10,7 @@
 		DF65D6F52BF4E530004A3D79 /* ObservableObjectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65D6F42BF4E530004A3D79 /* ObservableObjectBootcamp.swift */; };
 		DF65D6F92BF50457004A3D79 /* StateObjectAndObservedObjectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65D6F82BF50457004A3D79 /* StateObjectAndObservedObjectBootcamp.swift */; };
 		DF65D6FD2BF50885004A3D79 /* ViewModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65D6FC2BF50885004A3D79 /* ViewModelBootcamp.swift */; };
+		DFB2920E2BF5120100F2C3F3 /* EnvironmentObjectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB2920D2BF5120100F2C3F3 /* EnvironmentObjectBootcamp.swift */; };
 		DFBF9A462BF3E7E6001C337D /* SwiftfulThinkingContinuedLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBF9A452BF3E7E6001C337D /* SwiftfulThinkingContinuedLearningApp.swift */; };
 		DFBF9A482BF3E7E6001C337D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBF9A472BF3E7E6001C337D /* ContentView.swift */; };
 		DFBF9A4A2BF3E7E7001C337D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBF9A492BF3E7E7001C337D /* Assets.xcassets */; };
@@ -22,7 +23,8 @@
 		DF65D6F82BF50457004A3D79 /* StateObjectAndObservedObjectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectAndObservedObjectBootcamp.swift; sourceTree = "<group>"; };
 		DF65D6FC2BF50885004A3D79 /* ViewModelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBootcamp.swift; sourceTree = "<group>"; };
 		DF820FBD2BF3E88A00110D1A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		DFBF9A422BF3E7E6001C337D /* SwiftfulThinkingContinuedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulThinkingContinuedLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB2920D2BF5120100F2C3F3 /* EnvironmentObjectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectBootcamp.swift; sourceTree = "<group>"; };
+		DFBF9A422BF3E7E6001C337D /* SwiftfulThinkingContinuedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SwiftfulThinkingContinuedLearning.app; path = "/Users/enesozmus/Downloads/SwiftfulThinkingContinuedLearning/build/Debug-iphoneos/SwiftfulThinkingContinuedLearning.app"; sourceTree = "<absolute>"; };
 		DFBF9A452BF3E7E6001C337D /* SwiftfulThinkingContinuedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingContinuedLearningApp.swift; sourceTree = "<group>"; };
 		DFBF9A472BF3E7E6001C337D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DFBF9A492BF3E7E7001C337D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,18 +46,9 @@
 		DFBF9A392BF3E7E6001C337D = {
 			isa = PBXGroup;
 			children = (
-				DFBF9A432BF3E7E6001C337D /* Products */,
-				DF820FBD2BF3E88A00110D1A /* README.md */,
 				DFBF9A442BF3E7E6001C337D /* SwiftfulThinkingContinuedLearning */,
+				DF820FBD2BF3E88A00110D1A /* README.md */,
 			);
-			sourceTree = "<group>";
-		};
-		DFBF9A432BF3E7E6001C337D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DFBF9A422BF3E7E6001C337D /* SwiftfulThinkingContinuedLearning.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		DFBF9A442BF3E7E6001C337D /* SwiftfulThinkingContinuedLearning */ = {
@@ -63,6 +56,7 @@
 			children = (
 				DFBF9A492BF3E7E7001C337D /* Assets.xcassets */,
 				DFBF9A472BF3E7E6001C337D /* ContentView.swift */,
+				DFB2920D2BF5120100F2C3F3 /* EnvironmentObjectBootcamp.swift */,
 				DFCE753D2BF3EA0E00B39B29 /* ModelBootcamp.swift */,
 				DF65D6F42BF4E530004A3D79 /* ObservableObjectBootcamp.swift */,
 				DFBF9A4B2BF3E7E7001C337D /* Preview Content */,
@@ -133,7 +127,7 @@
 				Base,
 			);
 			mainGroup = DFBF9A392BF3E7E6001C337D;
-			productRefGroup = DFBF9A432BF3E7E6001C337D /* Products */;
+			productRefGroup = DFBF9A392BF3E7E6001C337D;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -159,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFB2920E2BF5120100F2C3F3 /* EnvironmentObjectBootcamp.swift in Sources */,
 				DFBF9A482BF3E7E6001C337D /* ContentView.swift in Sources */,
 				DF65D6FD2BF50885004A3D79 /* ViewModelBootcamp.swift in Sources */,
 				DFCE753E2BF3EA0E00B39B29 /* ModelBootcamp.swift in Sources */,
