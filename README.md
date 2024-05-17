@@ -15,3 +15,5 @@ Kaynak/Reference: [Swiftful Thinking](https://www.youtube.com/@SwiftfulThinking/
 >  > @AppStorage()
 > - ⚙️ [Review](./SwiftfulThinkingContinuedLearning/OnboardingViews)
 >  > We will create a fake user onboarding experience in which a user can sign up, add their name, age, gender, and then log in to our application. In this example we will focus on persisting the data with @AppStorage and making beautiful animations with the .transition modifier.
+> - ⚙️ [Essential Protocols](./SwiftfulThinkingContinuedLearning/EssentialProtocolsBootcamp.swift)
+>  > Identifiable, Equatable, Comparable, and Hashable Protocols
