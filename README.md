@@ -17,5 +17,5 @@ Kaynak/Reference: [Swiftful Thinking](https://www.youtube.com/@SwiftfulThinking/
 >  > We will create a fake user onboarding experience in which a user can sign up, add their name, age, gender, and then log in to our application. In this example we will focus on persisting the data with @AppStorage and making beautiful animations with the .transition modifier.
 > - ⚙️ [Essential Protocols](./SwiftfulThinkingContinuedLearning/EssentialProtocolsBootcamp.swift)
 >  > Identifiable, Equatable, Comparable, and Hashable Protocols
-> - ⚙️ [Data Manipulation](./SwiftfulThinkingContinuedLearning/DataManipulationBootcamp.swift)
->  > .sorted(), .sort(by:), .filter(), .map(), .compactMap()
+> - ⚙️ [Core Data](./SwiftfulThinkingContinuedLearning/CoreDataBootcamp.swift)
+>  > Core Data 1, Creating a Core Data model, Adding entities, Setting the properties of these entities
