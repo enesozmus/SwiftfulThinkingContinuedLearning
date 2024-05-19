@@ -23,3 +23,5 @@ Kaynak/Reference: [Swiftful Thinking](https://www.youtube.com/@SwiftfulThinking/
 >  > Setting up a Core Data stack, Initialize a Persistent Container
 > - ⚙️ [Core Data 3](./SwiftfulThinkingContinuedLearning/Root/SwiftfulThinkingContinuedLearningApp.swift)
 >  > Inject the managed object context
+> - ⚙️ [Core Data 4](./SwiftfulThinkingContinuedLearning/ContentView.swift)
+>  > Data manipulations in Core Data
