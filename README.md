@@ -19,3 +19,5 @@ Kaynak/Reference: [Swiftful Thinking](https://www.youtube.com/@SwiftfulThinking/
 >  > Identifiable, Equatable, Comparable, and Hashable Protocols
 > - ⚙️ [Core Data](./SwiftfulThinkingContinuedLearning/CoreDataBootcamp.swift)
 >  > Core Data 1, Creating a Core Data model, Adding entities, Setting the properties of these entities
+> - ⚙️ [Core Data](./SwiftfulThinkingContinuedLearning/CoreDataBootcamp.swift)
+>  > Core Data 2, Setting up a Core Data stack, Initialize a Persistent Container
