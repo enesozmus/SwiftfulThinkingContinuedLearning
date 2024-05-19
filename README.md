@@ -18,6 +18,8 @@ Kaynak/Reference: [Swiftful Thinking](https://www.youtube.com/@SwiftfulThinking/
 > - ⚙️ [Essential Protocols](./SwiftfulThinkingContinuedLearning/EssentialProtocolsBootcamp.swift)
 >  > Identifiable, Equatable, Comparable, and Hashable Protocols
 > - ⚙️ [Core Data](./SwiftfulThinkingContinuedLearning/CoreDataBootcamp.swift)
->  > Core Data 1, Creating a Core Data model, Adding entities, Setting the properties of these entities
-> - ⚙️ [Core Data](./SwiftfulThinkingContinuedLearning/CoreDataBootcamp.swift)
->  > Core Data 2, Setting up a Core Data stack, Initialize a Persistent Container
+>  > Creating a Core Data model, Adding entities, Setting the properties of these entities
+> - ⚙️ [Core Data 2](./SwiftfulThinkingContinuedLearning/CoreDataBootcamp.swift)
+>  > Setting up a Core Data stack, Initialize a Persistent Container
+> - ⚙️ [Core Data 3](./SwiftfulThinkingContinuedLearning/Root/SwiftfulThinkingContinuedLearningApp.swift)
+>  > Inject the managed object context

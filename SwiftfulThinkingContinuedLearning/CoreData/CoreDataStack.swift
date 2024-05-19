@@ -10,13 +10,13 @@ import Foundation
 
 // 🚨 Define an observable class to encapsulate all Core Data-related functionality.
 class CoreDataStack: ObservableObject {
-    
     static let shared = CoreDataStack()
     
     // 🚨 Create a persistent container as a lazy variable to defer instantiation until its first use.
     lazy var persistentContainer: NSPersistentContainer = {
         
-        // 🚨 That tells Core Data we want to use the "DataModel" data model.
+        // 🚨 Pass the data model filename to the container’s initializer.
+        // -> That tells Core Data we want to use the "DataModel" data model.
         // -> It doesn’t actually load it – we’ll do that in a moment – but it does prepare Core Data to load it.
         // -> Data models don’t contain our actual data, just the definitions of properties and attributes like we defined a moment ago.
         let container = NSPersistentContainer(name: "DataModel")

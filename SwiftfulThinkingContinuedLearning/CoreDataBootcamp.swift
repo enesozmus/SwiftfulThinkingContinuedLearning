@@ -74,3 +74,17 @@ struct CoreDataBootcamp: View {
         → A container that encapsulates the Core Data stack in your app.
         → NSPersistentContainer simplifies the creation and management of the Core Data stack by handling the creation of the managed object model (NSManagedObjectModel), persistent store coordinator (NSPersistentStoreCoordinator), and the managed object context (NSManagedObjectContext).
  */
+
+/*
+    🔴 Inject the managed object context
+        → Create an instance of the Core Data stack and inject its managed object context into your app environment.
+        → That completes CoreDataStack, so the final step is to create an instance of CoreDataStack and send it into SwiftUI’s environment.
+        → This is relevant to Core Data because most apps work with only one Core Data store at a time, so rather than every view trying to create their own store individually we instead create it once when our app starts, then store it inside the SwiftUI environment so everywhere else in our app can use it.
+ 
+        ✅ Go to app/root/main file
+ 
+     🔴 Managed object contexts
+         → The third piece of the Core Data puzzle: managed object contexts.
+         → These are effectively the “live” version of your data – when you load objects and change them, those changes only exist in memory until you specifically save them back to the persistent store.
+         → So, the job of the view context is to let us work with all our data in memory, which is much faster than constantly reading and writing data to disk. When we’re ready we still do need to write changes out to persistent store if we want them to be there when our app runs next, but you can also choose to discard changes if you don’t want them.
+ */
