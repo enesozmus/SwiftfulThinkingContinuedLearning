@@ -29,3 +29,5 @@ Kaynak/Reference: [Swiftful Thinking](https://www.youtube.com/@SwiftfulThinking/
 >  >  Entity relationships, predicates, and delete rules in Core Data
 >  - ⚙️ [Background Threads](./SwiftfulThinkingContinuedLearning/BackgroundThreadBootcamp.swift)
 >  > DispatchQueue, DispatchQueue.main.async { }, .global(qos:), .async, Thread.isMainThread, Thread.current, .background, .userInteractive, .userInitiated 
+>  - ⚙️ [Automatic Reference Counting](./SwiftfulThinkingContinuedLearning/AutomaticReferenceCountingBootcamp.swift)
+>  > How ARC works
