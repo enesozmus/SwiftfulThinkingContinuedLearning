@@ -12,6 +12,7 @@
 		DF1A50992BF6490000922648 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1A50982BF6490000922648 /* IntroView.swift */; };
 		DF1A509B2BF64A6F00922648 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1A509A2BF64A6F00922648 /* OnboardingView.swift */; };
 		DF1A509D2BF64A8000922648 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1A509C2BF64A8000922648 /* ProfileView.swift */; };
+		DF2050A12BFCDF87008D881E /* BackgroundThreadBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2050A02BFCDF87008D881E /* BackgroundThreadBootcamp.swift */; };
 		DF61679E2BF9FD2F007FDE2F /* CoreDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF61679D2BF9FD2F007FDE2F /* CoreDataBootcamp.swift */; };
 		DF6167A92BFA03AB007FDE2F /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6167A82BFA03AB007FDE2F /* CoreDataStack.swift */; };
 		DF6167AC2BFA0486007FDE2F /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF6167AA2BFA0486007FDE2F /* DataModel.xcdatamodeld */; };
@@ -33,6 +34,8 @@
 		DF1A50982BF6490000922648 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 		DF1A509A2BF64A6F00922648 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		DF1A509C2BF64A8000922648 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		DF20509F2BFCDF6B008D881E /* SwiftfulThinkingContinuedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SwiftfulThinkingContinuedLearning.app; path = "/Users/enesozmus/Downloads/SwiftfulThinkingContinuedLearning/build/Debug-iphoneos/SwiftfulThinkingContinuedLearning.app"; sourceTree = "<absolute>"; };
+		DF2050A02BFCDF87008D881E /* BackgroundThreadBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp.swift; sourceTree = "<group>"; };
 		DF61679D2BF9FD2F007FDE2F /* CoreDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcamp.swift; sourceTree = "<group>"; };
 		DF6167A82BFA03AB007FDE2F /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		DF6167AB2BFA0486007FDE2F /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
@@ -40,7 +43,6 @@
 		DF65D6F82BF50457004A3D79 /* StateObjectAndObservedObjectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectAndObservedObjectBootcamp.swift; sourceTree = "<group>"; };
 		DF65D6FC2BF50885004A3D79 /* ViewModelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBootcamp.swift; sourceTree = "<group>"; };
 		DF820FBD2BF3E88A00110D1A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		DF8D4AB62BFCCC0800D4D07E /* SwiftfulThinkingContinuedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SwiftfulThinkingContinuedLearning.app; path = "/Users/enesozmus/Downloads/SwiftfulThinkingContinuedLearning/build/Debug-iphoneos/SwiftfulThinkingContinuedLearning.app"; sourceTree = "<absolute>"; };
 		DFB2920D2BF5120100F2C3F3 /* EnvironmentObjectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectBootcamp.swift; sourceTree = "<group>"; };
 		DFBF9A452BF3E7E6001C337D /* SwiftfulThinkingContinuedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingContinuedLearningApp.swift; sourceTree = "<group>"; };
 		DFBF9A472BF3E7E6001C337D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			children = (
 				DF1A50952BF643DB00922648 /* AppStorageBootcamp.swift */,
 				DFBF9A492BF3E7E7001C337D /* Assets.xcassets */,
+				DF2050A02BFCDF87008D881E /* BackgroundThreadBootcamp.swift */,
 				DFBF9A472BF3E7E6001C337D /* ContentView.swift */,
 				DF61679F2BF9FDBF007FDE2F /* CoreData */,
 				DF61679D2BF9FD2F007FDE2F /* CoreDataBootcamp.swift */,
@@ -143,7 +146,7 @@
 			);
 			name = SwiftfulThinkingContinuedLearning;
 			productName = SwiftfulThinkingContinuedLearning;
-			productReference = DF8D4AB62BFCCC0800D4D07E /* SwiftfulThinkingContinuedLearning.app */;
+			productReference = DF20509F2BFCDF6B008D881E /* SwiftfulThinkingContinuedLearning.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -212,6 +215,7 @@
 				DF1A509D2BF64A8000922648 /* ProfileView.swift in Sources */,
 				DF65D6F92BF50457004A3D79 /* StateObjectAndObservedObjectBootcamp.swift in Sources */,
 				DF0F0E662BF8E9FB000349CF /* DataManipulationBootcamp.swift in Sources */,
+				DF2050A12BFCDF87008D881E /* BackgroundThreadBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

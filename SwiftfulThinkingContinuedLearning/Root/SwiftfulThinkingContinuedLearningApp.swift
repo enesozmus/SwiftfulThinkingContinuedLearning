@@ -20,8 +20,10 @@ struct SwiftfulThinkingContinuedLearningApp: App {
             // into the environment.
                 .environment(\.managedObjectContext,
                               coreDataStack.persistentContainer.viewContext)
+            
             //AppStorageBootcamp()
             //IntroView()
+            //BackgroundThreadBootcamp()
         }
     }
 }
