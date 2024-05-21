@@ -25,3 +25,5 @@ Kaynak/Reference: [Swiftful Thinking](https://www.youtube.com/@SwiftfulThinking/
 >  > Inject the managed object context
 > - ⚙️ [Core Data 4](./SwiftfulThinkingContinuedLearning/ContentView.swift)
 >  > Data manipulations in Core Data
+>  - ⚙️ [Core Data 5](https://github.com/enesozmus/iSchool)
+>  >  Entity relationships, predicates, and delete rules in Core Data
