@@ -37,3 +37,5 @@ Kaynak/Reference: [Swiftful Thinking](https://www.youtube.com/@SwiftfulThinking/
 >  > weak, weak self
 >  - ⚙️ [Typealias](./SwiftfulThinkingContinuedLearning/TypealiasBootcamp.swift)
 >  > typealias name = existing type, typealias CompletionHandler = (Int)->(String)
+>  - ⚙️ [Escaping Closures](./SwiftfulThinkingContinuedLearning/EscapingBootcamp.swift)
+>  > @escaping, [weak self], self?
