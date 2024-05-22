@@ -40,4 +40,6 @@ Kaynak/Reference: [Swiftful Thinking](https://www.youtube.com/@SwiftfulThinking/
 >  - ⚙️ [Escaping Closures](./SwiftfulThinkingContinuedLearning/EscapingBootcamp.swift)
 >  > @escaping, [weak self], self?
 >  - ⚙️ [JSONSerialization](./SwiftfulThinkingContinuedLearning/JSONSerializationBootcamp.swift)
->  > JSONSerialization, .jsonObject(with:options:), .data(withJSONObject:options:)
+>  > JSON, Why Is JSON Used?, Modeling relevant JSON data, JSONSerialization, .jsonObject(with:options:), .data(withJSONObject:options:)
+>  - ⚙️ [Introduction To Codable 1](./SwiftfulThinkingContinuedLearning/IntroductionToCodable.swift)
+>  > JSON, Why Is JSON Used?, Modeling relevant JSON data, Codable (type alias) Decodable and Encodable protocols, protocol Decoder, protocol Encoder, JSONDecoder(), JSONEncoder(), CodingKeys, decoder.container(keyedBy:), encoder.container(keyedBy:), container.decode(_:from:), container.encode(_:)

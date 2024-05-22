@@ -25,7 +25,8 @@ struct SwiftfulThinkingContinuedLearningApp: App {
             //IntroView()
             //BackgroundThreadBootcamp()
             //WeakReferencesBootcamp()
-            JSONSerializationBootcamp()
+            //JSONSerializationBootcamp()
+            IntroductionToCodableBootcamp()
         }
     }
 }

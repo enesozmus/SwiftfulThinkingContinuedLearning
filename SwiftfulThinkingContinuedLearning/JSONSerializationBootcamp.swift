@@ -8,6 +8,8 @@
 import SwiftUI
 
 
+// 🚨 What's really cool thing about Codable is that it does all of this for us on its own.
+
 // ... ⬛️
 struct CondradModel: Identifiable {
     let id: String
@@ -38,6 +40,7 @@ class JSONSerializationViewModel: ObservableObject {
         //        print(jsonString)
         
         // 🚨 yes a lot of work
+        // 🚨 What's really cool thing about Codable is that it does all of this for us on its own.
         if
             let localData: Any = try? JSONSerialization.jsonObject(with: returnedData, options: []),
             let dictionary: [String: Any] = localData as? [String:Any],
@@ -60,7 +63,7 @@ class JSONSerializationViewModel: ObservableObject {
             "points" : 5,
             "isPremium" : true
         ]
-        
+        // convert to json
         let jsonData: Data? = try? JSONSerialization.data(withJSONObject: dictionary, options: [])
         return jsonData;
     }
@@ -87,6 +90,32 @@ struct JSONSerializationBootcamp: View {
 #Preview {
     JSONSerializationBootcamp()
 }
+
+/*
+    1️⃣ We know that not every computer, every program, every application, every platform, and every software developer speaks the same language among themselves.
+    2️⃣ For communication, two separate structures need a common language, and at the same time, this language must also have the desired qualities.
+
+    → A lot of apps have online features that require a network connection in order to work.
+    → For example, you need to be online to see the photos in your Instagram feed, or to load and read the latest news in Reddit.
+    → If you’re creating an app with online functionality, you might need to depend on a backend API, and read or send data in the form of JSON.
+    ✅ We’re going to explore the Encodable and Decodable protocols, and how it can be used to convert to and from an external representation such as JSON.
+
+    🔴 JSON
+        → JavaScript Object Notation
+        → (JSON) is a standard text-based format for representing structured data based on JavaScript object syntax.
+        → JSON is an open standard file format, and data interchange format, that uses human-readable to store and transmit data objects consisting of attribute-value pairs and array data types.
+        → Thanks to its simplicity, flexibility, and compatibility with popular programming languages, JSON is a lightweight data interchange format that provides a standardized and efficient way for different systems, platforms, and programming languages to exchange data.
+        ✅ Yes, we have the common file format to easily communicate with other developers or fetch the data!
+
+    🔴 Why Is JSON Used?
+        → JSON's language-independent nature makes it an ideal format for exchanging data across different programming languages and platforms.
+        → For instance, an application written in Java can easily send JSON data to a Python application.
+        → Or a mobile app written in JavaScript can use JSON to communicate with a back-end server written in PHP.
+        → Why?
+        → Because both systems can parse and generate JSON.
+        → JSON is also used within an application or an IT system for storing and managing configuration settings.
+        → For example, configuration files written in JSON format can contain essential information, such as database connection details, API keys, or user preferences.
+ */
 
 /*
     🔴 JSONSerialization
