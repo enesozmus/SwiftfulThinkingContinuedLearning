@@ -65,3 +65,31 @@ struct StrongReferenceCyclesBootcamp: View {
 
     ❗️ The strong reference cycle prevents the Person and Apartment instances from ever being deallocated, causing a memory leak in your app.
  */
+
+/*
+    🔴 Resolving Strong Reference Cycles Between Class Instances
+        → Swift provides two ways to resolve strong reference cycles when you work with properties of class type: weak references and unowned references.
+
+        → Weak and unowned references enable one instance in a reference cycle to refer to the other instance without keeping a strong hold on it.
+        → The instances can then refer to each other without creating a strong reference cycle.
+
+    1. Use a weak reference when the other instance has a shorter lifetime — that is, when the other instance can be deallocated first.
+    2. In contrast, use an unowned reference when the other instance has the same lifetime or a longer lifetime.
+ */
+
+/*
+         class Person {
+             let name: String
+             init(name: String) { self.name = name }
+             var apartment: Apartment?
+             deinit { print("\(name) is being deinitialized") }
+         }
+
+
+         class Apartment {
+             let unit: String
+             init(unit: String) { self.unit = unit }
+             weak var tenant: Person?
+             deinit { print("Apartment \(unit) is being deinitialized") }
+         }
+ */

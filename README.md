@@ -32,4 +32,6 @@ Kaynak/Reference: [Swiftful Thinking](https://www.youtube.com/@SwiftfulThinking/
 >  - ⚙️ [Automatic Reference Counting](./SwiftfulThinkingContinuedLearning/AutomaticReferenceCountingBootcamp.swift)
 >  > How ARC works
 >  - ⚙️ [Strong Reference Cycles](./SwiftfulThinkingContinuedLearning/StrongReferenceCyclesBootcamp.swift)
->  > Strong reference cycles between class instances
+>  > Strong reference cycles between class instances and Resolving strong reference cycles between class instances
+>  - ⚙️ [Weak References](./SwiftfulThinkingContinuedLearning/WeakReferencesBootcamp.swift)
+>  > weak, weak self

@@ -15,15 +15,16 @@ struct SwiftfulThinkingContinuedLearningApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
             // 🚨 Inject the persistent container's managed object context
             // into the environment.
-                .environment(\.managedObjectContext,
-                              coreDataStack.persistentContainer.viewContext)
+                //.environment(\.managedObjectContext,
+                              //coreDataStack.persistentContainer.viewContext)
             
             //AppStorageBootcamp()
             //IntroView()
             //BackgroundThreadBootcamp()
+            WeakReferencesBootcamp()
         }
     }
 }
