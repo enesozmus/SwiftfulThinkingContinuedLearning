@@ -31,3 +31,5 @@ Kaynak/Reference: [Swiftful Thinking](https://www.youtube.com/@SwiftfulThinking/
 >  > DispatchQueue, DispatchQueue.main.async { }, .global(qos:), .async, Thread.isMainThread, Thread.current, .background, .userInteractive, .userInitiated 
 >  - ⚙️ [Automatic Reference Counting](./SwiftfulThinkingContinuedLearning/AutomaticReferenceCountingBootcamp.swift)
 >  > How ARC works
+>  - ⚙️ [Strong Reference Cycles](./SwiftfulThinkingContinuedLearning/StrongReferenceCyclesBootcamp.swift)
+>  > Strong reference cycles between class instances
