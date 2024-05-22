@@ -35,3 +35,5 @@ Kaynak/Reference: [Swiftful Thinking](https://www.youtube.com/@SwiftfulThinking/
 >  > Strong reference cycles between class instances and Resolving strong reference cycles between class instances
 >  - ⚙️ [Weak References](./SwiftfulThinkingContinuedLearning/WeakReferencesBootcamp.swift)
 >  > weak, weak self
+>  - ⚙️ [Typealias](./SwiftfulThinkingContinuedLearning/TypealiasBootcamp.swift)
+>  > typealias name = existing type, typealias CompletionHandler = (Int)->(String)
