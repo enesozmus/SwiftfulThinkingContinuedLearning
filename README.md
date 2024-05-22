@@ -41,5 +41,7 @@ Kaynak/Reference: [Swiftful Thinking](https://www.youtube.com/@SwiftfulThinking/
 >  > @escaping, [weak self], self?
 >  - ⚙️ [JSONSerialization](./SwiftfulThinkingContinuedLearning/JSONSerializationBootcamp.swift)
 >  > JSON, Why Is JSON Used?, Modeling relevant JSON data, JSONSerialization, .jsonObject(with:options:), .data(withJSONObject:options:)
->  - ⚙️ [Introduction To Codable 1](./SwiftfulThinkingContinuedLearning/IntroductionToCodable.swift)
->  > JSON, Why Is JSON Used?, Modeling relevant JSON data, Codable (type alias) Decodable and Encodable protocols, protocol Decoder, protocol Encoder, JSONDecoder(), JSONEncoder(), CodingKeys, decoder.container(keyedBy:), encoder.container(keyedBy:), container.decode(_:from:), container.encode(_:)
+>  - ⚙️ [Introduction To Codable 1](./SwiftfulThinkingContinuedLearning/IntroductionToCodableBootcamp.swift)
+>  > JSON, Why Is JSON Used?, Modeling relevant JSON data, Codable (type alias) Decodable and Encodable protocols, protocol Decoder, protocol Encoder, JSONDecoder(), JSONEncoder(), container.decode(_:from:), container.encode(_:), CodingKeys, decoder.container(keyedBy:), encoder.container(keyedBy:)
+>  - ⚙️ [Introduction To Codable 2](./SwiftfulThinkingContinuedLearning/IntroductionToCodableBootcamp2.swift)
+>  > Modeling relevant JSON data, Codable, JSONDecoder(), JSONEncoder(), container.decode(_:from:), container.encode(_:)
