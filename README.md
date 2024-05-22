@@ -39,3 +39,5 @@ Kaynak/Reference: [Swiftful Thinking](https://www.youtube.com/@SwiftfulThinking/
 >  > typealias name = existing type, typealias CompletionHandler = (Int)->(String)
 >  - ⚙️ [Escaping Closures](./SwiftfulThinkingContinuedLearning/EscapingBootcamp.swift)
 >  > @escaping, [weak self], self?
+>  - ⚙️ [JSONSerialization](./SwiftfulThinkingContinuedLearning/JSONSerializationBootcamp.swift)
+>  > JSONSerialization, .jsonObject(with:options:), .data(withJSONObject:options:)
