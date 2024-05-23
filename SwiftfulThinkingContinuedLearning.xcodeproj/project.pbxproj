@@ -20,6 +20,7 @@
 		DF65D6F52BF4E530004A3D79 /* ObservableObjectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65D6F42BF4E530004A3D79 /* ObservableObjectBootcamp.swift */; };
 		DF65D6F92BF50457004A3D79 /* StateObjectAndObservedObjectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65D6F82BF50457004A3D79 /* StateObjectAndObservedObjectBootcamp.swift */; };
 		DF65D6FD2BF50885004A3D79 /* ViewModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF65D6FC2BF50885004A3D79 /* ViewModelBootcamp.swift */; };
+		DF7A8BFA2BFF685400D34434 /* DownloadWithEscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7A8BF92BFF685400D34434 /* DownloadWithEscapingBootcamp.swift */; };
 		DF7BFF532BFDE9B500D46B8B /* StrongReferenceCyclesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BFF522BFDE9B500D46B8B /* StrongReferenceCyclesBootcamp.swift */; };
 		DF7BFF552BFDEA9700D46B8B /* WeakReferencesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BFF542BFDEA9700D46B8B /* WeakReferencesBootcamp.swift */; };
 		DF7BFF572BFDF49D00D46B8B /* TypealiasBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BFF562BFDF49D00D46B8B /* TypealiasBootcamp.swift */; };
@@ -52,6 +53,7 @@
 		DF65D6F82BF50457004A3D79 /* StateObjectAndObservedObjectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectAndObservedObjectBootcamp.swift; sourceTree = "<group>"; };
 		DF65D6FC2BF50885004A3D79 /* ViewModelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBootcamp.swift; sourceTree = "<group>"; };
 		DF7A8BF82BFF58F900D34434 /* SwiftfulThinkingContinuedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SwiftfulThinkingContinuedLearning.app; path = "/Users/enesozmus/Downloads/SwiftfulThinkingContinuedLearning/build/Debug-iphoneos/SwiftfulThinkingContinuedLearning.app"; sourceTree = "<absolute>"; };
+		DF7A8BF92BFF685400D34434 /* DownloadWithEscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEscapingBootcamp.swift; sourceTree = "<group>"; };
 		DF7BFF522BFDE9B500D46B8B /* StrongReferenceCyclesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrongReferenceCyclesBootcamp.swift; sourceTree = "<group>"; };
 		DF7BFF542BFDEA9700D46B8B /* WeakReferencesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakReferencesBootcamp.swift; sourceTree = "<group>"; };
 		DF7BFF562BFDF49D00D46B8B /* TypealiasBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypealiasBootcamp.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				DF61679D2BF9FD2F007FDE2F /* CoreDataBootcamp.swift */,
 				DF0F0E652BF8E9FB000349CF /* DataManipulationBootcamp.swift */,
 				DFDD6DD22BFF36F800024395 /* DownloadingJSONBootcamp.swift */,
+				DF7A8BF92BFF685400D34434 /* DownloadWithEscapingBootcamp.swift */,
 				DFB2920D2BF5120100F2C3F3 /* EnvironmentObjectBootcamp.swift */,
 				DF7BFF582BFDFCA900D46B8B /* EscapingBootcamp.swift */,
 				DFF78A642BF7D31300188D2C /* EssentialProtocolsBootcamp.swift */,
@@ -249,6 +252,7 @@
 				DF7BFF612BFEB6F400D46B8B /* IntroductionToCodableBootcamp2.swift in Sources */,
 				DF7BFF532BFDE9B500D46B8B /* StrongReferenceCyclesBootcamp.swift in Sources */,
 				DF65D6F92BF50457004A3D79 /* StateObjectAndObservedObjectBootcamp.swift in Sources */,
+				DF7A8BFA2BFF685400D34434 /* DownloadWithEscapingBootcamp.swift in Sources */,
 				DF0F0E662BF8E9FB000349CF /* DataManipulationBootcamp.swift in Sources */,
 				DF2050A12BFCDF87008D881E /* BackgroundThreadBootcamp.swift in Sources */,
 				DF7BFF5F2BFE7D1400D46B8B /* IntroductionToCodableBootcamp.swift in Sources */,

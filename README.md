@@ -45,5 +45,7 @@ Kaynak/Reference: [Swiftful Thinking](https://www.youtube.com/@SwiftfulThinking/
 >  > JSON, Why Is JSON Used?, Modeling relevant JSON data, Codable (type alias) Decodable and Encodable protocols, protocol Decoder, protocol Encoder, JSONDecoder(), JSONEncoder(), container.decode(_:from:), container.encode(_:), CodingKeys, decoder.container(keyedBy:), encoder.container(keyedBy:)
 >  - ⚙️ [Introduction To Codable 2](./SwiftfulThinkingContinuedLearning/IntroductionToCodableBootcamp2.swift)
 >  > Modeling relevant JSON data, Codable, JSONDecoder(), JSONEncoder(), container.decode(_:from:), container.encode(_:)
->  - ⚙️ [Downloading some JSON from the Internet](./SwiftfulThinkingContinuedLearning/DownloadingJSONBootcamp.swift)
+>  - ⚙️ [Downloading some JSON from the Internet 1](./SwiftfulThinkingContinuedLearning/DownloadingJSONBootcamp.swift)
 >  > Modeling relevant JSON data, Codable, @Published, URL(), URLRequest(), JSONDecoder(), URLSession, asyn/await, .task {}
+>  - ⚙️ [Downloading some JSON from the Internet 2](./SwiftfulThinkingContinuedLearning/DownloadWithEscapingBootcamp.swift)
+>  > Downloading JSON from an API using completionHandler and @escaping
