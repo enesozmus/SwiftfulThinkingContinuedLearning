@@ -49,3 +49,5 @@ Kaynak/Reference: [Swiftful Thinking](https://www.youtube.com/@SwiftfulThinking/
 >  > Modeling relevant JSON data, Codable, @Published, URL(), URLRequest(), JSONDecoder(), URLSession, asyn/await, .task {}
 >  - ⚙️ [Downloading some JSON from the Internet 2](./SwiftfulThinkingContinuedLearning/DownloadWithEscapingBootcamp.swift)
 >  > Downloading JSON from an API using completionHandler and @escaping
+>  - ⚙️ [URL Loading System and URLSession Class in Swift](./SwiftfulThinkingContinuedLearning/URLLoadingBootcamp.swift)
+>  > URL, URLSession, URLSession.shared, URLSessionDataTask, Handling Data, Responses and Errors, URLSessionUploadTask, URLSessionDownloadTask, Managing Sessions, Task Lifecycle Management, Background Sessions, Handling Background Events, Handling Cookies and Sessions, Error Handling and Debugging, Concurrency and DispatchQueues, Grand Central Dispatch Integration, Authentication and Security, URLSessionConfiguration
