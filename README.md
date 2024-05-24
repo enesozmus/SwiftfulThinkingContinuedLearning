@@ -53,5 +53,7 @@ Kaynak/Reference: [Swiftful Thinking](https://www.youtube.com/@SwiftfulThinking/
 >  > URL, URLSession, URLSession.shared, URLSessionDataTask, Handling Data, Responses and Errors, URLSessionUploadTask, URLSessionDownloadTask, Managing Sessions, Task Lifecycle Management, Background Sessions, Handling Background Events, Handling Cookies and Sessions, Error Handling and Debugging, Concurrency and DispatchQueues, Grand Central Dispatch Integration, Authentication and Security, URLSessionConfiguration
 >  - ⚙️ [Downloading JSON from an API using Combine framework](./SwiftfulThinkingContinuedLearning/DownloadWithCombineBootcamp.swift)
 >  > URLSession, URLSession.shared, URLSession.shared.dataTaskPublisher(for:), .receive(on:options:), .tryMap(), .decode(type:decoder:), .replaceError(with:), .sink(receiveValue:), .store(in: &self.cancellables):
->  - ⚙️ [Downloading JSON from an API using Combine framework](./SwiftfulThinkingContinuedLearning/TimerBootcamp.swift)
+>  - ⚙️ [Timer and onReceive()](./SwiftfulThinkingContinuedLearning/TimerBootcamp.swift)
 >  > Timer, .publish(), .autoconnect(), onReceive(publisher:perform:)
+>  - ⚙️ [Publishers and Subscribers in Combine](./SwiftfulThinkingContinuedLearning/SubscriberBootcamp.swift)
+>  > Publishers and Subscribers, Timer, .publish(), .autoconnect(), .sink{}, .debounce(for:scheduler:options:), .map(:), .combineLatest(:), .store(in: &self.cancellables):, AnyCancellable

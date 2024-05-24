@@ -27,7 +27,7 @@ struct TimerBootcamp: View {
     func updateTimeRemaining() {
         //        let remaining = Calendar.current.dateComponents([.hour, .minute, .second], from: Date(), to: futureDate)
         let remaining = Calendar.current.dateComponents([.minute, .second], from: Date(), to: futureDate)
-        let hour = remaining.hour ?? 0
+        //let hour = remaining.hour ?? 0
         let minute = remaining.minute ?? 0
         let second = remaining.second ?? 0
         //timeRemaining = "\(hour):\(minute):\(second)"
