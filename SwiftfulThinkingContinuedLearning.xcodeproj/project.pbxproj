@@ -15,6 +15,7 @@
 		DF1A509D2BF64A8000922648 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1A509C2BF64A8000922648 /* ProfileView.swift */; };
 		DF2050A12BFCDF87008D881E /* BackgroundThreadBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2050A02BFCDF87008D881E /* BackgroundThreadBootcamp.swift */; };
 		DF2050A32BFD3438008D881E /* AutomaticReferenceCountingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2050A22BFD3438008D881E /* AutomaticReferenceCountingBootcamp.swift */; };
+		DF51B6F72C00DA7900C42280 /* TimerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51B6F62C00DA7900C42280 /* TimerBootcamp.swift */; };
 		DF61679E2BF9FD2F007FDE2F /* CoreDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF61679D2BF9FD2F007FDE2F /* CoreDataBootcamp.swift */; };
 		DF6167A92BFA03AB007FDE2F /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6167A82BFA03AB007FDE2F /* CoreDataStack.swift */; };
 		DF6167AC2BFA0486007FDE2F /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF6167AA2BFA0486007FDE2F /* DataModel.xcdatamodeld */; };
@@ -49,6 +50,7 @@
 		DF1A509C2BF64A8000922648 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		DF2050A02BFCDF87008D881E /* BackgroundThreadBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp.swift; sourceTree = "<group>"; };
 		DF2050A22BFD3438008D881E /* AutomaticReferenceCountingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticReferenceCountingBootcamp.swift; sourceTree = "<group>"; };
+		DF51B6F62C00DA7900C42280 /* TimerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBootcamp.swift; sourceTree = "<group>"; };
 		DF61679D2BF9FD2F007FDE2F /* CoreDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcamp.swift; sourceTree = "<group>"; };
 		DF6167A82BFA03AB007FDE2F /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		DF6167AB2BFA0486007FDE2F /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
@@ -64,7 +66,6 @@
 		DF7BFF5E2BFE7D1400D46B8B /* IntroductionToCodableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionToCodableBootcamp.swift; sourceTree = "<group>"; };
 		DF7BFF602BFEB6F400D46B8B /* IntroductionToCodableBootcamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionToCodableBootcamp2.swift; sourceTree = "<group>"; };
 		DF820FBD2BF3E88A00110D1A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		DF8A219E2C00C4A900A9DF93 /* SwiftfulThinkingContinuedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SwiftfulThinkingContinuedLearning.app; path = "/Users/enesozmus/Downloads/SwiftfulThinkingContinuedLearning/build/Debug-iphoneos/SwiftfulThinkingContinuedLearning.app"; sourceTree = "<absolute>"; };
 		DFB2920D2BF5120100F2C3F3 /* EnvironmentObjectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectBootcamp.swift; sourceTree = "<group>"; };
 		DFBF9A452BF3E7E6001C337D /* SwiftfulThinkingContinuedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingContinuedLearningApp.swift; sourceTree = "<group>"; };
 		DFBF9A472BF3E7E6001C337D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +74,7 @@
 		DFCBCD8E2BFFCADD00A3B62D /* URLLoadingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLLoadingBootcamp.swift; sourceTree = "<group>"; };
 		DFCE753D2BF3EA0E00B39B29 /* ModelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelBootcamp.swift; sourceTree = "<group>"; };
 		DFDD6DD22BFF36F800024395 /* DownloadingJSONBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingJSONBootcamp.swift; sourceTree = "<group>"; };
+		DFF2A0482C00F52600173223 /* SwiftfulThinkingContinuedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SwiftfulThinkingContinuedLearning.app; path = "/Users/enesozmus/Downloads/SwiftfulThinkingContinuedLearning/build/Debug-iphoneos/SwiftfulThinkingContinuedLearning.app"; sourceTree = "<absolute>"; };
 		DFF78A642BF7D31300188D2C /* EssentialProtocolsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialProtocolsBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,6 +143,7 @@
 				DFBF9A532BF3E811001C337D /* Root */,
 				DF65D6F82BF50457004A3D79 /* StateObjectAndObservedObjectBootcamp.swift */,
 				DF7BFF522BFDE9B500D46B8B /* StrongReferenceCyclesBootcamp.swift */,
+				DF51B6F62C00DA7900C42280 /* TimerBootcamp.swift */,
 				DF7BFF562BFDF49D00D46B8B /* TypealiasBootcamp.swift */,
 				DFCBCD8E2BFFCADD00A3B62D /* URLLoadingBootcamp.swift */,
 				DF65D6FC2BF50885004A3D79 /* ViewModelBootcamp.swift */,
@@ -182,7 +185,7 @@
 			);
 			name = SwiftfulThinkingContinuedLearning;
 			productName = SwiftfulThinkingContinuedLearning;
-			productReference = DF8A219E2C00C4A900A9DF93 /* SwiftfulThinkingContinuedLearning.app */;
+			productReference = DFF2A0482C00F52600173223 /* SwiftfulThinkingContinuedLearning.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -261,6 +264,7 @@
 				DF7A8BFA2BFF685400D34434 /* DownloadWithEscapingBootcamp.swift in Sources */,
 				DF0F0E662BF8E9FB000349CF /* DataManipulationBootcamp.swift in Sources */,
 				DF0E5AF22BFFE8F900F359D4 /* DownloadWithCombineBootcamp.swift in Sources */,
+				DF51B6F72C00DA7900C42280 /* TimerBootcamp.swift in Sources */,
 				DFCBCD8F2BFFCADD00A3B62D /* URLLoadingBootcamp.swift in Sources */,
 				DF2050A12BFCDF87008D881E /* BackgroundThreadBootcamp.swift in Sources */,
 				DF7BFF5F2BFE7D1400D46B8B /* IntroductionToCodableBootcamp.swift in Sources */,
