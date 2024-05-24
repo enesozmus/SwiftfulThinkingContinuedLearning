@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF0E5AF22BFFE8F900F359D4 /* DownloadWithCombineBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0E5AF12BFFE8F900F359D4 /* DownloadWithCombineBootcamp.swift */; };
 		DF0F0E662BF8E9FB000349CF /* DataManipulationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0F0E652BF8E9FB000349CF /* DataManipulationBootcamp.swift */; };
 		DF1A50962BF643DB00922648 /* AppStorageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1A50952BF643DB00922648 /* AppStorageBootcamp.swift */; };
 		DF1A50992BF6490000922648 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1A50982BF6490000922648 /* IntroView.swift */; };
@@ -40,7 +41,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DF0E5AF02BFFE27D00F359D4 /* SwiftfulThinkingContinuedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SwiftfulThinkingContinuedLearning.app; path = "/Users/enesozmus/Downloads/SwiftfulThinkingContinuedLearning/build/Debug-iphoneos/SwiftfulThinkingContinuedLearning.app"; sourceTree = "<absolute>"; };
+		DF0E5AF12BFFE8F900F359D4 /* DownloadWithCombineBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithCombineBootcamp.swift; sourceTree = "<group>"; };
 		DF0F0E652BF8E9FB000349CF /* DataManipulationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManipulationBootcamp.swift; sourceTree = "<group>"; };
 		DF1A50952BF643DB00922648 /* AppStorageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageBootcamp.swift; sourceTree = "<group>"; };
 		DF1A50982BF6490000922648 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
@@ -63,6 +64,7 @@
 		DF7BFF5E2BFE7D1400D46B8B /* IntroductionToCodableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionToCodableBootcamp.swift; sourceTree = "<group>"; };
 		DF7BFF602BFEB6F400D46B8B /* IntroductionToCodableBootcamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionToCodableBootcamp2.swift; sourceTree = "<group>"; };
 		DF820FBD2BF3E88A00110D1A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DF8A219E2C00C4A900A9DF93 /* SwiftfulThinkingContinuedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SwiftfulThinkingContinuedLearning.app; path = "/Users/enesozmus/Downloads/SwiftfulThinkingContinuedLearning/build/Debug-iphoneos/SwiftfulThinkingContinuedLearning.app"; sourceTree = "<absolute>"; };
 		DFB2920D2BF5120100F2C3F3 /* EnvironmentObjectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectBootcamp.swift; sourceTree = "<group>"; };
 		DFBF9A452BF3E7E6001C337D /* SwiftfulThinkingContinuedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingContinuedLearningApp.swift; sourceTree = "<group>"; };
 		DFBF9A472BF3E7E6001C337D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				DF61679D2BF9FD2F007FDE2F /* CoreDataBootcamp.swift */,
 				DF0F0E652BF8E9FB000349CF /* DataManipulationBootcamp.swift */,
 				DFDD6DD22BFF36F800024395 /* DownloadingJSONBootcamp.swift */,
+				DF0E5AF12BFFE8F900F359D4 /* DownloadWithCombineBootcamp.swift */,
 				DF7A8BF92BFF685400D34434 /* DownloadWithEscapingBootcamp.swift */,
 				DFB2920D2BF5120100F2C3F3 /* EnvironmentObjectBootcamp.swift */,
 				DF7BFF582BFDFCA900D46B8B /* EscapingBootcamp.swift */,
@@ -179,7 +182,7 @@
 			);
 			name = SwiftfulThinkingContinuedLearning;
 			productName = SwiftfulThinkingContinuedLearning;
-			productReference = DF0E5AF02BFFE27D00F359D4 /* SwiftfulThinkingContinuedLearning.app */;
+			productReference = DF8A219E2C00C4A900A9DF93 /* SwiftfulThinkingContinuedLearning.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -257,6 +260,7 @@
 				DF65D6F92BF50457004A3D79 /* StateObjectAndObservedObjectBootcamp.swift in Sources */,
 				DF7A8BFA2BFF685400D34434 /* DownloadWithEscapingBootcamp.swift in Sources */,
 				DF0F0E662BF8E9FB000349CF /* DataManipulationBootcamp.swift in Sources */,
+				DF0E5AF22BFFE8F900F359D4 /* DownloadWithCombineBootcamp.swift in Sources */,
 				DFCBCD8F2BFFCADD00A3B62D /* URLLoadingBootcamp.swift in Sources */,
 				DF2050A12BFCDF87008D881E /* BackgroundThreadBootcamp.swift in Sources */,
 				DF7BFF5F2BFE7D1400D46B8B /* IntroductionToCodableBootcamp.swift in Sources */,
