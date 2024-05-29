@@ -15,6 +15,7 @@
 		DF1A509D2BF64A8000922648 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1A509C2BF64A8000922648 /* ProfileView.swift */; };
 		DF2050A12BFCDF87008D881E /* BackgroundThreadBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2050A02BFCDF87008D881E /* BackgroundThreadBootcamp.swift */; };
 		DF2050A32BFD3438008D881E /* AutomaticReferenceCountingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2050A22BFD3438008D881E /* AutomaticReferenceCountingBootcamp.swift */; };
+		DF5067A42C07B2FE00742847 /* CachingImagesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5067A32C07B2FE00742847 /* CachingImagesBootcamp.swift */; };
 		DF51B6F72C00DA7900C42280 /* TimerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51B6F62C00DA7900C42280 /* TimerBootcamp.swift */; };
 		DF5F908B2C010FBA002B1154 /* SubscriberBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5F908A2C010FBA002B1154 /* SubscriberBootcamp.swift */; };
 		DF61679E2BF9FD2F007FDE2F /* CoreDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF61679D2BF9FD2F007FDE2F /* CoreDataBootcamp.swift */; };
@@ -52,6 +53,8 @@
 		DF1A509C2BF64A8000922648 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		DF2050A02BFCDF87008D881E /* BackgroundThreadBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp.swift; sourceTree = "<group>"; };
 		DF2050A22BFD3438008D881E /* AutomaticReferenceCountingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticReferenceCountingBootcamp.swift; sourceTree = "<group>"; };
+		DF5067A22C07B2A500742847 /* SwiftfulThinkingContinuedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SwiftfulThinkingContinuedLearning.app; path = "/Users/enesozmus/Downloads/SwiftfulThinkingContinuedLearning/build/Debug-iphoneos/SwiftfulThinkingContinuedLearning.app"; sourceTree = "<absolute>"; };
+		DF5067A32C07B2FE00742847 /* CachingImagesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachingImagesBootcamp.swift; sourceTree = "<group>"; };
 		DF51B6F62C00DA7900C42280 /* TimerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBootcamp.swift; sourceTree = "<group>"; };
 		DF5F908A2C010FBA002B1154 /* SubscriberBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberBootcamp.swift; sourceTree = "<group>"; };
 		DF61679D2BF9FD2F007FDE2F /* CoreDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcamp.swift; sourceTree = "<group>"; };
@@ -69,7 +72,6 @@
 		DF7BFF5E2BFE7D1400D46B8B /* IntroductionToCodableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionToCodableBootcamp.swift; sourceTree = "<group>"; };
 		DF7BFF602BFEB6F400D46B8B /* IntroductionToCodableBootcamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionToCodableBootcamp2.swift; sourceTree = "<group>"; };
 		DF820FBD2BF3E88A00110D1A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		DFAF57E22C076A6F00DE1C8B /* SwiftfulThinkingContinuedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SwiftfulThinkingContinuedLearning.app; path = "/Users/enesozmus/Downloads/SwiftfulThinkingContinuedLearning/build/Debug-iphoneos/SwiftfulThinkingContinuedLearning.app"; sourceTree = "<absolute>"; };
 		DFAF57E32C076ADC00DE1C8B /* FileManagerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerBootcamp.swift; sourceTree = "<group>"; };
 		DFB2920D2BF5120100F2C3F3 /* EnvironmentObjectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectBootcamp.swift; sourceTree = "<group>"; };
 		DFBF9A452BF3E7E6001C337D /* SwiftfulThinkingContinuedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingContinuedLearningApp.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				DFBF9A492BF3E7E7001C337D /* Assets.xcassets */,
 				DF2050A22BFD3438008D881E /* AutomaticReferenceCountingBootcamp.swift */,
 				DF2050A02BFCDF87008D881E /* BackgroundThreadBootcamp.swift */,
+				DF5067A32C07B2FE00742847 /* CachingImagesBootcamp.swift */,
 				DFBF9A472BF3E7E6001C337D /* ContentView.swift */,
 				DF61679F2BF9FDBF007FDE2F /* CoreData */,
 				DF61679D2BF9FD2F007FDE2F /* CoreDataBootcamp.swift */,
@@ -191,7 +194,7 @@
 			);
 			name = SwiftfulThinkingContinuedLearning;
 			productName = SwiftfulThinkingContinuedLearning;
-			productReference = DFAF57E22C076A6F00DE1C8B /* SwiftfulThinkingContinuedLearning.app */;
+			productReference = DF5067A22C07B2A500742847 /* SwiftfulThinkingContinuedLearning.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -256,6 +259,7 @@
 				DFCE753E2BF3EA0E00B39B29 /* ModelBootcamp.swift in Sources */,
 				DF61679E2BF9FD2F007FDE2F /* CoreDataBootcamp.swift in Sources */,
 				DF6167A92BFA03AB007FDE2F /* CoreDataStack.swift in Sources */,
+				DF5067A42C07B2FE00742847 /* CachingImagesBootcamp.swift in Sources */,
 				DF7BFF5D2BFE793700D46B8B /* JSONSerializationBootcamp.swift in Sources */,
 				DF7BFF572BFDF49D00D46B8B /* TypealiasBootcamp.swift in Sources */,
 				DF65D6F52BF4E530004A3D79 /* ObservableObjectBootcamp.swift in Sources */,

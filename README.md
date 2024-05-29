@@ -59,3 +59,5 @@ Kaynak/Reference: [Swiftful Thinking](https://www.youtube.com/@SwiftfulThinking/
 >  > Publishers and Subscribers, Timer, .publish(), .autoconnect(), .sink{}, .debounce(for:scheduler:options:), .map(:), .combineLatest(:), .store(in: &self.cancellables):, AnyCancellable
 >  - ⚙️ [File Manager](./SwiftfulThinkingContinuedLearning/FileManagerBootcamp.swift)
 >  > Managing data and images via File Manager
+>  - ⚙️ [Caching Images](./SwiftfulThinkingContinuedLearning/CachingImagesBootcamp.swift)
+>  > Caching images in the assets folder
