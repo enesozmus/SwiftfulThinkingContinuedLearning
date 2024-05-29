@@ -57,3 +57,5 @@ Kaynak/Reference: [Swiftful Thinking](https://www.youtube.com/@SwiftfulThinking/
 >  > Timer, .publish(), .autoconnect(), onReceive(publisher:perform:)
 >  - ⚙️ [Publishers and Subscribers in Combine](./SwiftfulThinkingContinuedLearning/SubscriberBootcamp.swift)
 >  > Publishers and Subscribers, Timer, .publish(), .autoconnect(), .sink{}, .debounce(for:scheduler:options:), .map(:), .combineLatest(:), .store(in: &self.cancellables):, AnyCancellable
+>  - ⚙️ [File Manager](./SwiftfulThinkingContinuedLearning/FileManagerBootcamp.swift)
+>  > Managing data and images via File Manager

@@ -28,7 +28,8 @@ struct SwiftfulThinkingContinuedLearningApp: App {
             //JSONSerializationBootcamp()
             //IntroductionToCodableBootcamp()
             //IntroductionToCodableBootcamp2()
-            DownloadingJSONBootcamp()
+            //DownloadingJSONBootcamp()
+            FileManagerBootcamp()
         }
     }
 }
