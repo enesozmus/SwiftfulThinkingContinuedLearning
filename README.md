@@ -61,3 +61,5 @@ Kaynak/Reference: [Swiftful Thinking](https://www.youtube.com/@SwiftfulThinking/
 >  > Managing data and images via File Manager
 >  - ⚙️ [Caching Images](./SwiftfulThinkingContinuedLearning/CachingImagesBootcamp.swift)
 >  > Caching images in the assets folder
+>  - ⚙️ [Downloading and saving images](./SwiftfulThinkingContinuedLearning/DownloadingImages.swift)
+>  > Downloading and saving images using Codable, Combine Framework, Background threads, FileManager and NSCache

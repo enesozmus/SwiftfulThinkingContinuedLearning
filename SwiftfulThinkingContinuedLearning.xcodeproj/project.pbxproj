@@ -32,6 +32,15 @@
 		DF7BFF5D2BFE793700D46B8B /* JSONSerializationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BFF5C2BFE793700D46B8B /* JSONSerializationBootcamp.swift */; };
 		DF7BFF5F2BFE7D1400D46B8B /* IntroductionToCodableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BFF5E2BFE7D1400D46B8B /* IntroductionToCodableBootcamp.swift */; };
 		DF7BFF612BFEB6F400D46B8B /* IntroductionToCodableBootcamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BFF602BFEB6F400D46B8B /* IntroductionToCodableBootcamp2.swift */; };
+		DF9558CE2C088AF7004D7A8E /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9558CD2C088AF7004D7A8E /* ImageModel.swift */; };
+		DF9558D02C088B6C004D7A8E /* ImageModelFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9558CF2C088B6C004D7A8E /* ImageModelFileManager.swift */; };
+		DF9558D22C088B76004D7A8E /* ImageModelDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9558D12C088B76004D7A8E /* ImageModelDataService.swift */; };
+		DF9558D42C088B7E004D7A8E /* ImageModelCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9558D32C088B7E004D7A8E /* ImageModelCacheManager.swift */; };
+		DF9558D62C088B97004D7A8E /* ImageLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9558D52C088B97004D7A8E /* ImageLoadingViewModel.swift */; };
+		DF9558D82C088B9D004D7A8E /* DownloadingImagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9558D72C088B9D004D7A8E /* DownloadingImagesViewModel.swift */; };
+		DF9558DA2C088BA5004D7A8E /* DownloadingImagesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9558D92C088BA5004D7A8E /* DownloadingImagesRow.swift */; };
+		DF9558DC2C088BAB004D7A8E /* DownloadingImagesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9558DB2C088BAB004D7A8E /* DownloadingImagesBootcamp.swift */; };
+		DF9558DE2C088BB3004D7A8E /* DownloadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9558DD2C088BB3004D7A8E /* DownloadingImageView.swift */; };
 		DFAF57E42C076ADC00DE1C8B /* FileManagerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAF57E32C076ADC00DE1C8B /* FileManagerBootcamp.swift */; };
 		DFB2920E2BF5120100F2C3F3 /* EnvironmentObjectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB2920D2BF5120100F2C3F3 /* EnvironmentObjectBootcamp.swift */; };
 		DFBF9A462BF3E7E6001C337D /* SwiftfulThinkingContinuedLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBF9A452BF3E7E6001C337D /* SwiftfulThinkingContinuedLearningApp.swift */; };
@@ -53,9 +62,9 @@
 		DF1A509C2BF64A8000922648 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		DF2050A02BFCDF87008D881E /* BackgroundThreadBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp.swift; sourceTree = "<group>"; };
 		DF2050A22BFD3438008D881E /* AutomaticReferenceCountingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticReferenceCountingBootcamp.swift; sourceTree = "<group>"; };
-		DF5067A22C07B2A500742847 /* SwiftfulThinkingContinuedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SwiftfulThinkingContinuedLearning.app; path = "/Users/enesozmus/Downloads/SwiftfulThinkingContinuedLearning/build/Debug-iphoneos/SwiftfulThinkingContinuedLearning.app"; sourceTree = "<absolute>"; };
 		DF5067A32C07B2FE00742847 /* CachingImagesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachingImagesBootcamp.swift; sourceTree = "<group>"; };
 		DF51B6F62C00DA7900C42280 /* TimerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBootcamp.swift; sourceTree = "<group>"; };
+		DF5803E02C08D6CA001F5D09 /* SwiftfulThinkingContinuedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SwiftfulThinkingContinuedLearning.app; path = "/Users/enesozmus/Downloads/SwiftfulThinkingContinuedLearning/build/Debug-iphoneos/SwiftfulThinkingContinuedLearning.app"; sourceTree = "<absolute>"; };
 		DF5F908A2C010FBA002B1154 /* SubscriberBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberBootcamp.swift; sourceTree = "<group>"; };
 		DF61679D2BF9FD2F007FDE2F /* CoreDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcamp.swift; sourceTree = "<group>"; };
 		DF6167A82BFA03AB007FDE2F /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
@@ -72,6 +81,15 @@
 		DF7BFF5E2BFE7D1400D46B8B /* IntroductionToCodableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionToCodableBootcamp.swift; sourceTree = "<group>"; };
 		DF7BFF602BFEB6F400D46B8B /* IntroductionToCodableBootcamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionToCodableBootcamp2.swift; sourceTree = "<group>"; };
 		DF820FBD2BF3E88A00110D1A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DF9558CD2C088AF7004D7A8E /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		DF9558CF2C088B6C004D7A8E /* ImageModelFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModelFileManager.swift; sourceTree = "<group>"; };
+		DF9558D12C088B76004D7A8E /* ImageModelDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModelDataService.swift; sourceTree = "<group>"; };
+		DF9558D32C088B7E004D7A8E /* ImageModelCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModelCacheManager.swift; sourceTree = "<group>"; };
+		DF9558D52C088B97004D7A8E /* ImageLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingViewModel.swift; sourceTree = "<group>"; };
+		DF9558D72C088B9D004D7A8E /* DownloadingImagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImagesViewModel.swift; sourceTree = "<group>"; };
+		DF9558D92C088BA5004D7A8E /* DownloadingImagesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImagesRow.swift; sourceTree = "<group>"; };
+		DF9558DB2C088BAB004D7A8E /* DownloadingImagesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImagesBootcamp.swift; sourceTree = "<group>"; };
+		DF9558DD2C088BB3004D7A8E /* DownloadingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImageView.swift; sourceTree = "<group>"; };
 		DFAF57E32C076ADC00DE1C8B /* FileManagerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerBootcamp.swift; sourceTree = "<group>"; };
 		DFB2920D2BF5120100F2C3F3 /* EnvironmentObjectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectBootcamp.swift; sourceTree = "<group>"; };
 		DFBF9A452BF3E7E6001C337D /* SwiftfulThinkingContinuedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingContinuedLearningApp.swift; sourceTree = "<group>"; };
@@ -114,6 +132,54 @@
 			path = CoreData;
 			sourceTree = "<group>";
 		};
+		DF9558C82C088AA9004D7A8E /* DownloadingImages */ = {
+			isa = PBXGroup;
+			children = (
+				DF9558CC2C088AC9004D7A8E /* Models */,
+				DF9558CB2C088AC1004D7A8E /* Utilities */,
+				DF9558CA2C088AB9004D7A8E /* ViewModels */,
+				DF9558C92C088AB1004D7A8E /* Views */,
+			);
+			path = DownloadingImages;
+			sourceTree = "<group>";
+		};
+		DF9558C92C088AB1004D7A8E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF9558DB2C088BAB004D7A8E /* DownloadingImagesBootcamp.swift */,
+				DF9558D92C088BA5004D7A8E /* DownloadingImagesRow.swift */,
+				DF9558DD2C088BB3004D7A8E /* DownloadingImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF9558CA2C088AB9004D7A8E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DF9558D72C088B9D004D7A8E /* DownloadingImagesViewModel.swift */,
+				DF9558D52C088B97004D7A8E /* ImageLoadingViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DF9558CB2C088AC1004D7A8E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DF9558D32C088B7E004D7A8E /* ImageModelCacheManager.swift */,
+				DF9558D12C088B76004D7A8E /* ImageModelDataService.swift */,
+				DF9558CF2C088B6C004D7A8E /* ImageModelFileManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DF9558CC2C088AC9004D7A8E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DF9558CD2C088AF7004D7A8E /* ImageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		DFBF9A392BF3E7E6001C337D = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +200,7 @@
 				DF61679F2BF9FDBF007FDE2F /* CoreData */,
 				DF61679D2BF9FD2F007FDE2F /* CoreDataBootcamp.swift */,
 				DF0F0E652BF8E9FB000349CF /* DataManipulationBootcamp.swift */,
+				DF9558C82C088AA9004D7A8E /* DownloadingImages */,
 				DFDD6DD22BFF36F800024395 /* DownloadingJSONBootcamp.swift */,
 				DF0E5AF12BFFE8F900F359D4 /* DownloadWithCombineBootcamp.swift */,
 				DF7A8BF92BFF685400D34434 /* DownloadWithEscapingBootcamp.swift */,
@@ -194,7 +261,7 @@
 			);
 			name = SwiftfulThinkingContinuedLearning;
 			productName = SwiftfulThinkingContinuedLearning;
-			productReference = DF5067A22C07B2A500742847 /* SwiftfulThinkingContinuedLearning.app */;
+			productReference = DF5803E02C08D6CA001F5D09 /* SwiftfulThinkingContinuedLearning.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -256,9 +323,15 @@
 				DF7BFF552BFDEA9700D46B8B /* WeakReferencesBootcamp.swift in Sources */,
 				DFDD6DD32BFF36F800024395 /* DownloadingJSONBootcamp.swift in Sources */,
 				DF1A509B2BF64A6F00922648 /* OnboardingView.swift in Sources */,
+				DF9558DA2C088BA5004D7A8E /* DownloadingImagesRow.swift in Sources */,
+				DF9558D22C088B76004D7A8E /* ImageModelDataService.swift in Sources */,
+				DF9558D82C088B9D004D7A8E /* DownloadingImagesViewModel.swift in Sources */,
 				DFCE753E2BF3EA0E00B39B29 /* ModelBootcamp.swift in Sources */,
 				DF61679E2BF9FD2F007FDE2F /* CoreDataBootcamp.swift in Sources */,
+				DF9558D42C088B7E004D7A8E /* ImageModelCacheManager.swift in Sources */,
+				DF9558DE2C088BB3004D7A8E /* DownloadingImageView.swift in Sources */,
 				DF6167A92BFA03AB007FDE2F /* CoreDataStack.swift in Sources */,
+				DF9558D02C088B6C004D7A8E /* ImageModelFileManager.swift in Sources */,
 				DF5067A42C07B2FE00742847 /* CachingImagesBootcamp.swift in Sources */,
 				DF7BFF5D2BFE793700D46B8B /* JSONSerializationBootcamp.swift in Sources */,
 				DF7BFF572BFDF49D00D46B8B /* TypealiasBootcamp.swift in Sources */,
@@ -271,11 +344,14 @@
 				DF1A50962BF643DB00922648 /* AppStorageBootcamp.swift in Sources */,
 				DF1A509D2BF64A8000922648 /* ProfileView.swift in Sources */,
 				DF7BFF612BFEB6F400D46B8B /* IntroductionToCodableBootcamp2.swift in Sources */,
+				DF9558D62C088B97004D7A8E /* ImageLoadingViewModel.swift in Sources */,
 				DF7BFF532BFDE9B500D46B8B /* StrongReferenceCyclesBootcamp.swift in Sources */,
 				DF65D6F92BF50457004A3D79 /* StateObjectAndObservedObjectBootcamp.swift in Sources */,
 				DF7A8BFA2BFF685400D34434 /* DownloadWithEscapingBootcamp.swift in Sources */,
+				DF9558CE2C088AF7004D7A8E /* ImageModel.swift in Sources */,
 				DF0F0E662BF8E9FB000349CF /* DataManipulationBootcamp.swift in Sources */,
 				DF0E5AF22BFFE8F900F359D4 /* DownloadWithCombineBootcamp.swift in Sources */,
+				DF9558DC2C088BAB004D7A8E /* DownloadingImagesBootcamp.swift in Sources */,
 				DF51B6F72C00DA7900C42280 /* TimerBootcamp.swift in Sources */,
 				DFCBCD8F2BFFCADD00A3B62D /* URLLoadingBootcamp.swift in Sources */,
 				DF2050A12BFCDF87008D881E /* BackgroundThreadBootcamp.swift in Sources */,
